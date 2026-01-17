@@ -1,0 +1,10 @@
+[package]
+name = "orbit-capture-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "orbit_capture_core"
+path = "core/lib.rs"
+
+[dependencies]
