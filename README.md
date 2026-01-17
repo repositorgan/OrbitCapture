@@ -92,9 +92,11 @@ Make screen capture muscle memory.
 ## Outline 
 
 orbit-capture/
+├─Cargo.toml
+├─README.md ,/
 ├─ core/
 │  ├─ gesture/
-│  │  ├─ sampler.rs
+│  │  ├─ sampler.rs ,/
 │  │  ├─ detector.rs
 │  │  ├─ hull.rs
 │  │  └─ classifier.rs
