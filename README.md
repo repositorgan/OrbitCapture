@@ -89,6 +89,38 @@ Slide 9 — Vision
 
 Make screen capture muscle memory.
 
+## Outline 
+
+orbit-capture/
+├─ core/
+│  ├─ gesture/
+│  │  ├─ sampler.rs
+│  │  ├─ detector.rs
+│  │  ├─ hull.rs
+│  │  └─ classifier.rs
+│  ├─ geometry/
+│  │  ├─ mask.rs
+│  │  ├─ ellipse.rs
+│  │  └─ polygon.rs
+│  ├─ capture/
+│  │  ├─ region.rs
+│  │  └─ compositor.rs
+│  ├─ export/
+│  │  ├─ clipboard.rs
+│  │  ├─ png.rs
+│  │  └─ svg.rs
+│  └─ lib.rs
+│
+├─ platform/
+│  ├─ windows/
+│  ├─ macos/
+│  └─ linux/
+│
+├─ ui/
+│  └─ tauri/
+│
+└─ api/
+   └─ c_ffi.rs
 
 ## Roadmap
 
